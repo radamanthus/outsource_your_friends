@@ -16,3 +16,7 @@ gem "database_cleaner", ">= 0.7.1", :group => :test
 gem "launchy", ">= 2.0.5", :group => :test
 gem "devise", ">= 2.0.4"
 gem "omniauth-facebook"
+
+group :development do
+  gem 'pry'
+end
